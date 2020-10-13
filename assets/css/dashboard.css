@@ -1,0 +1,55 @@
+	  .sidebar, .topbar{
+	  	color: beige;
+	  }
+    .main{
+      color: #5a5c69 !important;
+    }
+      .logo{
+          font-family: 'True Lies';
+          font-size: 20px;
+      	user-select: none;
+      }
+      .sidebar-brand-icon img{
+      	height: 60px;
+      	width: 60px;
+      	filter: grayscale(100%);
+      	pointer-events: none;
+      	user-select: none;
+      }
+      icon b{
+      	font-size: 20px;
+      	user-select: none;
+      }
+     .light-theme{
+      	background-color: #099688 !important;
+      }
+     .btn-primary{
+     	background-color: #099688 !important;
+         box-shadow: none !important;
+         outline: none !important;
+      }
+      input:focus{
+      	 box-shadow: none !important;
+      }
+      btn:focus, a:focus
+{
+         outline: none !important;
+         box-shadow: none !important;
+}
+.navbar-toggler:focus
+{
+         outline: none !important;
+         box-shadow: none !important;
+}
+.text-black{
+	color:black;
+}
+.text-capital{
+  text-transform: capitalize;
+}
+.text-primary{
+  color:  #099688 !important ;
+}
+.main{
+  overflow-x: scroll;
+}

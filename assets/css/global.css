@@ -1,0 +1,37 @@
+  /*Global Styles*/
+      *{
+          text-decoration: none !important;
+      }
+      body{
+          font-family: Quicksand !important;
+          text-transform: capitalize !important;
+          min-height: 100vh !important;
+      }
+      .bg-transparent{
+          background-color: transparent;
+      }
+      .card{
+          border: none !important;
+      }
+      h1{
+          font-size: 50px !important;
+      }
+      .logo{
+          color:rgba(245, 245, 220,0.8);
+          text-shadow: 10px 10px 30px gray;
+          font-family: 'True Lies';
+          font-size: 40px;
+      }
+      .bg-primary{
+        background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(4,34,79,0.95) 0%, rgba(5,144,172,1) 100%) no-repeat;    
+    background-position: center;
+      }
+      a{
+        color: #b5bcc4 !important;
+      }
+      a:hover{
+        color: beige !important;
+      }
+
+
