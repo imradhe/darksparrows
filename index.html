@@ -144,6 +144,11 @@ li a:hover{
       </nav>
 
 
+<script>
+  if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+</script>
       <div class="container text-center">
       	<img src="https://darksparrows.kautilyaeducation.com/assets/img/banner.png">
       	<h1 class="tagline">We Collaborate We Create</h1>
