@@ -110,6 +110,12 @@ li a:hover{
 }
     </style>
   </head>
+  
+<script>
+  if (location.protocol == 'https:') {
+    location.replace(`http:${location.href.substring(location.protocol.length)}`);
+}
+</script>
   <body class="bg-primary font-primary">
    
 
